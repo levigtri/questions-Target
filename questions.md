@@ -33,11 +33,11 @@ int main(){
     
     printf("Esse número não faz parte da sequência de Fibonacci!");
     return 0;
-}```
+}
 
 
 ## 03
-```#include <stdio.h>
+#include <stdio.h>
 int main(){
     double vector[] = {31490.7866, 37277.9400, 37708.4303, 0.0000, 0.0000, 17934.2269, 0.0000, 6965.1262, 24390.9374, 14279.6481, 0.0000, 0.0000, 39807.6622, 27261.6304, 39775.6434, 29797.6232, 17216.5017, 0.0000, 0.0000, 12974.2000, 28490.9861, 8748.0937, 8889.0023, 17767.5583, 0.0000, 0.0000, 3071.3283, 48275.2994, 10299.6761, 39874.1073};
 
@@ -80,12 +80,12 @@ int main(){
     printf("A quantidade de dias em que o faturamento diário esteve acima da média mensal foi %d", diasAcimaDaMediaMensal);
     
     return 0;
-}```
+}
 
 
 
 ## 04
-```#include <stdio.h>
+#include <stdio.h>
 int main(){
     // declaração e inicialização de variáveis
     double faturamentoSP = 67836.43, faturamentoRJ = 36678.66, faturamentoMG = 29229.88, faturamentoES = 27165.48, faturamentoOutros = 19849.53, valorTotalMensal;
@@ -109,11 +109,11 @@ int main(){
     printf("O faturamento dos outros Estados consiste em %.2f%%\n em relação ao valor total mensal da distribuidora.\n ", percentOutros);
 
     return 0;
-}```
+}
 
 
 ## 05
-```#include <stdio.h>
+#include <stdio.h>
 int main(){
     char string[] = "O rato roeu a roupa do Rei de Roma.";
     int sizeString = 0;
